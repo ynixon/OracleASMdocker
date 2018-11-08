@@ -1,0 +1,10 @@
+*.asm_diskstring='/dev/asm*','/bbx/data/*','/dev/*'
+*.audit_syslog_level=local0.info
+*.audit_sys_operations=false
+*.asm_power_limit=1
+*.diagnostic_dest=/u01/app/grid
+*.instance_type=asm
+*.large_pool_size=12M 
+*.remote_login_passwordfile=EXCLUSIVE
+*.audit_syslog_level=local0.info
+*.audit_sys_operations=false

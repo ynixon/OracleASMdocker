@@ -1,0 +1,16 @@
+LISTENER =
+  (DESCRIPTION_LIST =
+    (DESCRIPTION =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 0.0.0.0 )(PORT = 1521))
+      (ADDRESS = (PROTOCOL = IPC)(KEY = EXTPROC1521))
+    )
+  )
+
+SID_LIST_LISTENER=
+    (SID_LIST=
+                (SID_DESC=
+                        (SID_NAME=+ASM)
+                        (ORACLE_HOME=/u01/app/12.2.0.1/grid)
+                        (GLOBAL_DBNAME=+ASM)
+                )
+    )

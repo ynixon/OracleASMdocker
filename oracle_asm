@@ -1,0 +1,13 @@
+/u01/app/grid/diag/asm/+asm/+ASM/trace/alert_+ASM.log
+/u01/app/grid/diag/crs/gridserver/crs/trace/alert.log
+/u01/app/grid/diag/tnslsnr/gridserver/listener/trace/listener.log
+
+{	
+	daily
+	rotate 15
+	compress
+	copytruncate
+	delaycompress
+	create 0640 grid oinstall
+	notifempty
+}

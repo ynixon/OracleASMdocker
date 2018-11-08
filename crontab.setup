@@ -1,0 +1,10 @@
+# Example of job definition:
+# .---------------- Minute            (range: 0-59)
+# | .-------------- Hour              (range: 0-23)
+# | | .------------ Day of the Month  (range: 1-31)
+# | | | .---------- Month of the Year (range: 1-12)
+# | | | | .-------- Day of the Week   (range: 1-7, 1 standing for Monday)
+# | | | | |
+# * * * * * username  command to be executed
+0 */6 * * * /usr/bin/timeout 20m /usr/bin/find /u01/app/12.2.0.1/grid/rdbms/audit -type f -mtime +1 -exec rm {} \;
+0 */6 * * * /usr/bin/timeout 20m /home/grid/scripts/adrci_script.sh
