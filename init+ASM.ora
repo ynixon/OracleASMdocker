@@ -1,4 +1,4 @@
-*.asm_diskstring='/dev/asm*','/bbx/data/*','/dev/*'
+*.asm_diskstring='/dev/asm*','/dev/*'
 *.audit_syslog_level=local0.info
 *.audit_sys_operations=false
 *.asm_power_limit=1
